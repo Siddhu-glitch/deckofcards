@@ -126,7 +126,17 @@
   </style>
 </head>
 <body>
-
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #ffe6f0;
+  font-family: 'Segoe UI', sans-serif;
+}
   <div class="scene" onclick="flipCard(event)">
     <div class="card" id="card">
       <div class="card-face card-front">
